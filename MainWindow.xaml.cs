@@ -33,5 +33,10 @@ namespace WinPresentationF
                 txtName.Clear();
             }
         }
+
+        private void ButtonAddName_Click2(object sender, RoutedEventArgs e)
+        {
+            this.Close();
+        }
     }
 }
